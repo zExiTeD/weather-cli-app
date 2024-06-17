@@ -42,6 +42,12 @@ func main() {
   fmt.Printf("|--Timezone : %s                \n",weather.Location.Timezone)
   fmt.Printf("|--Current Weather: %s                  \n",weather.Current.Condition.Text)
   fmt.Printf("|--Temperature : %v°C                    \n",weather.Current.Temperature)
+  
+  i := ""
+  fmt.Println("press q to exit")
+  fmt.Scan(&i)
+
+  
 
 }
 
