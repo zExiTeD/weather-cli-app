@@ -25,7 +25,7 @@ type Weather struct {
 }
 
 func main() {
-  url :=  "http://api.weatherapi.com/v1/current.json?key=6854371d393e4cb988e14733240306&q=9.97,76.23"
+  url :=  "insert -- url"
   weather := Weather{}
   response , err := http.Get(url)
 
